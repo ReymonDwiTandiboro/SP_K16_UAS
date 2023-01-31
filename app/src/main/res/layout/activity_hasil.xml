@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapk"
+    tools:context=".hasil">
+
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="19dp"
+        android:layout_gravity="center"
+        android:src="@drawable/thasil"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:layout_gravity="center"
+        android:text="Hasil :"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hasil2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:text="Kerusakan :"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hasil3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:text="Solusi :"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/back1"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:background="@drawable/btn3"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:text="kembali"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+</LinearLayout>
